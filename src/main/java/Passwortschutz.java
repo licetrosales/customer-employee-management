@@ -3,18 +3,19 @@ import java.util.Scanner;
 public class Passwortschutz {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Bitte Passwort eingeben:");
+        String passwort = "";
+        int i = 0;
+        while(!passwort.equals("passwort") && i < 3){
+            System.out.println("Bitte Passwort eingeben:");
 
-        String passwort = scanner.next();
-
+             passwort = scanner.next();
+             i +=1;
+        }
         if (passwort.equals("passwort")) {
             System.out.println("Passwort korrekt");
-
-        } else if (passwort.equals("admin")) {
-            System.out.println("Administrator-Passwort korrekt");
         } else {
-            System.out.println("Passwort falsch");
-
+            System.out.println("Zu viele Versuche, System gesperrt.");
         }
+
     }
 }
