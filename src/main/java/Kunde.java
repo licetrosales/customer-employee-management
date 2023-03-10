@@ -5,6 +5,9 @@ public class Kunde {
     int hausnummer;
     String plz;
     String ort;
+    public String ganzerName() {
+        return vorname + " " + nachname;
+    }
     public Kunde(String vn, String nn, String str, int nummer, String p, String o){
         vorname = vn;
         nachname = nn;
@@ -13,4 +16,6 @@ public class Kunde {
         plz = p;
         ort = o;
     }
+
+
 }
