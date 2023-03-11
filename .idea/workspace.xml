@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c98ae8d-e306-4e2f-b6f5-800b84567c8d" name="Changes" comment="Insert Adresse class in Kunde class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Adresse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Adresse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Kunde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Kunde.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="6c98ae8d-e306-4e2f-b6f5-800b84567c8d" name="Changes" comment="Add getter and setter for class Adresse">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +94,7 @@
       <workItem from="1678457757087" duration="604000" />
       <workItem from="1678470893388" duration="136000" />
       <workItem from="1678471589678" duration="2636000" />
-      <workItem from="1678547709753" duration="3029000" />
+      <workItem from="1678547709753" duration="3688000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <created>1678312688184</created>
@@ -183,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678550073594</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add getter and setter for class Adresse">
+      <created>1678551710479</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678551710479</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +215,7 @@
     <MESSAGE value="Add main function" />
     <MESSAGE value="Add class with address info" />
     <MESSAGE value="Insert Adresse class in Kunde class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Insert Adresse class in Kunde class" />
+    <MESSAGE value="Add getter and setter for class Adresse" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add getter and setter for class Adresse" />
   </component>
 </project>
