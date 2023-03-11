@@ -13,6 +13,31 @@ public class Adresse {
     public int getHausnummer(){
         return this.hausnummer;
     }
+
+    public String getStrasse() {
+        return strasse;
+    }
+
+    public String getPlz() {
+        return plz;
+    }
+
+    public String getOrt() {
+        return ort;
+    }
+
+    public void setStrasse(String strasse) {
+        this.strasse = strasse;
+    }
+
+    public void setPlz(String plz) {
+        this.plz = plz;
+    }
+
+    public void setOrt(String ort) {
+        this.ort = ort;
+    }
+
     public void setHausnummer(int hausnummer){
         if (hausnummer >= 0){
         this.hausnummer = hausnummer;
