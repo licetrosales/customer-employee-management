@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c98ae8d-e306-4e2f-b6f5-800b84567c8d" name="Changes" comment="Add constructor for customer class">
+    <list default="true" id="6c98ae8d-e306-4e2f-b6f5-800b84567c8d" name="Changes" comment="Add function to display customer name and lastname">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Kunde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Kunde.java" afterDir="false" />
     </list>
@@ -57,7 +58,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Kunde" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kunde" />
       <module name="customer-employee-management" />
@@ -65,8 +66,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="customer-employee-management" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Kunde" />
       </list>
     </recent_temporary>
@@ -86,7 +95,8 @@
       <workItem from="1678441005653" duration="1436000" />
       <workItem from="1678457757087" duration="604000" />
       <workItem from="1678470893388" duration="136000" />
-      <workItem from="1678471589678" duration="1848000" />
+      <workItem from="1678471589678" duration="2636000" />
+      <workItem from="1678547709753" duration="727000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <created>1678312688184</created>
@@ -144,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678471980619</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add function to display customer name and lastname">
+      <created>1678473575204</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678473575204</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +185,7 @@
     <MESSAGE value="Set verification attempts to 3" />
     <MESSAGE value="Fix Typos" />
     <MESSAGE value="Add constructor for customer class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add constructor for customer class" />
+    <MESSAGE value="Add function to display customer name and lastname" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add function to display customer name and lastname" />
   </component>
 </project>
