@@ -9,8 +9,5 @@ public class Kunde {
         vorname = vn;
         nachname = nn;
         adresse = new Adresse(str, nummer, p, o);
-
     }
-
-
 }
