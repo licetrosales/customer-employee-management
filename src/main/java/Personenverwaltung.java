@@ -22,8 +22,19 @@ public class Personenverwaltung {
             String strasse = scanner.next();
 
             System.out.println("Bitte geben Sie die Hausnummer an, in der die Person wohnt:");
-            int hausnummer = Integer.valueOf(scanner.next());
 
+            int hausnummer = 0;
+            boolean erneuteEingabe = true;
+            while (erneuteEingabe) {
+                try {
+
+                    hausnummer = Integer.valueOf(scanner.next());
+                    erneuteEingabe = false;
+                } catch (NumberFormatException e) {
+                    System.out.println("Ungültige Eingabe, bitte geben Sie eine Zahl ein.");
+                }
+
+            }
             System.out.println("Bitte geben Sie die PLZ ein, an der die Person wohnt:");
             String plz = scanner.next();
 
