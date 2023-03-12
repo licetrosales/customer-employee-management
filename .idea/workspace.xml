@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c98ae8d-e306-4e2f-b6f5-800b84567c8d" name="Changes" comment="Add try-catch-Block for NumberFormatException">
+    <list default="true" id="6c98ae8d-e306-4e2f-b6f5-800b84567c8d" name="Changes" comment="Close scanner">
+      <change afterPath="$PROJECT_DIR$/datei.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TextDateiSchreibenOutputStreamWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TextdateiSchreiben.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Personenverwaltung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Personenverwaltung.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,30 +36,33 @@
     </option>
   </component>
   <component name="ProjectId" id="2MkXabfcDvz4SwBjVbKAU2C4quK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Personenverwaltung">
+}]]></component>
+  <component name="RunManager" selected="Application.TextDateiSchreibenOutputStreamWriter">
     <configuration name="Kunde" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kunde" />
       <module name="customer-employee-management" />
@@ -79,8 +84,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextDateiSchreibenOutputStreamWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextDateiSchreibenOutputStreamWriter" />
+      <module name="customer-employee-management" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextdateiSchreiben" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TextdateiSchreiben" />
+      <module name="customer-employee-management" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TextDateiSchreibenOutputStreamWriter" />
+        <item itemvalue="Application.TextdateiSchreiben" />
         <item itemvalue="Application.Personenverwaltung" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Kunde" />
@@ -104,7 +125,7 @@
       <workItem from="1678470893388" duration="136000" />
       <workItem from="1678471589678" duration="2636000" />
       <workItem from="1678547709753" duration="11987000" />
-      <workItem from="1678621484475" duration="5676000" />
+      <workItem from="1678621484475" duration="8625000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <created>1678312688184</created>
@@ -253,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678658028823</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Close scanner">
+      <created>1678661945579</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678661945579</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +299,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Init project" />
     <MESSAGE value="Add functionality for reading text from the console" />
     <MESSAGE value="Add console read password method" />
@@ -290,14 +319,15 @@
     <MESSAGE value="Create object Kunde or Mitarbeiter" />
     <MESSAGE value="Add List of objects" />
     <MESSAGE value="Add try-catch-Block for NumberFormatException" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add try-catch-Block for NumberFormatException" />
+    <MESSAGE value="Close scanner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Close scanner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/target/classes/Personenverwaltung.class</url>
-          <line>65</line>
+          <line>66</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
