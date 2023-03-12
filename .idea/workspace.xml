@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c98ae8d-e306-4e2f-b6f5-800b84567c8d" name="Changes" comment="Add List of objects">
+    <list default="true" id="6c98ae8d-e306-4e2f-b6f5-800b84567c8d" name="Changes" comment="Add try-catch-Block for NumberFormatException">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Personenverwaltung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Personenverwaltung.java" afterDir="false" />
     </list>
@@ -104,7 +104,7 @@
       <workItem from="1678470893388" duration="136000" />
       <workItem from="1678471589678" duration="2636000" />
       <workItem from="1678547709753" duration="11987000" />
-      <workItem from="1678621484475" duration="4566000" />
+      <workItem from="1678621484475" duration="5676000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <created>1678312688184</created>
@@ -246,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678641858343</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Add try-catch-Block for NumberFormatException">
+      <created>1678658028823</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1678658028823</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,14 +289,15 @@
     <MESSAGE value="Add class Personenverwaltung" />
     <MESSAGE value="Create object Kunde or Mitarbeiter" />
     <MESSAGE value="Add List of objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add List of objects" />
+    <MESSAGE value="Add try-catch-Block for NumberFormatException" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add try-catch-Block for NumberFormatException" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/target/classes/Personenverwaltung.class</url>
-          <line>54</line>
+          <line>65</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
