@@ -8,7 +8,7 @@ public class TextdateiSchreiben {
         String str = "\nText1\nTest2";
 
         try{
-            FileWriter dateiSchreiber = new FileWriter("datei.text", true);
+            FileWriter dateiSchreiber = new FileWriter("datei.txt", true);
             BufferedWriter schreiber = new BufferedWriter(dateiSchreiber);
             schreiber.write(str);
             schreiber.close();
