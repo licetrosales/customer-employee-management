@@ -2,6 +2,28 @@ public class Person {
     String vorname;
     String nachname;
     Adresse adresse;
+
+    public String getVorname(){
+        return vorname;
+    }
+    public void setVorname(String vorname){
+        this.vorname = vorname;
+    }
+    public String getNachname(){
+        return nachname;
+    }
+    public void setNachname(String nachname){
+        this.nachname = nachname;
+    }
+
+    public Adresse getAdresse() {
+        return adresse;
+    }
+
+    public void setAdresse(Adresse adresse) {
+        this.adresse = adresse;
+    }
+
     public String ganzerName() {
         return vorname + " " + nachname;
     }
