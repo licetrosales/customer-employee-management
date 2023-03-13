@@ -32,4 +32,8 @@ public class Person {
         this.nachname = nachname;
         this.adresse = new Adresse(strasse, hausnummer, plz, ort);
     }
+    public String toString(){
+      return  this.getVorname() + "," + this.getNachname() + "," + this.getAdresse().strasse + "," +
+                this.getAdresse().getHausnummer() + "," + this.getAdresse().getPlz() + "," + this.getAdresse().getOrt();
+    }
 }

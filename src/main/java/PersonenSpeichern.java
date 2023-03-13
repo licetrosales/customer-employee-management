@@ -19,8 +19,7 @@ public class PersonenSpeichern {
             OutputStreamWriter osw = new OutputStreamWriter(fos);
             osw.write("voranme,nachname,strasse,hausnummer,plz,ort\n");
             for (Person person : personen) {
-                osw.write(person.getVorname() + "," + person.getNachname() + "," + person.getAdresse().strasse + "," +
-                        person.getAdresse().getHausnummer() + "," + person.getAdresse().getPlz() + "," + person.getAdresse().getOrt() + "\n");
+                osw.write(person + "\n");
             }
             osw.close();
         } catch (IOException e) {
