@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c98ae8d-e306-4e2f-b6f5-800b84567c8d" name="Changes" comment="Create text file">
-      <change afterPath="$PROJECT_DIR$/datei.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TextdateiLesen.java" afterDir="false" />
+    <list default="true" id="6c98ae8d-e306-4e2f-b6f5-800b84567c8d" name="Changes" comment="Add getters and setters for class Person">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PersonenSpeichern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datei.text" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TextdateiSchreiben.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TextdateiSchreiben.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +60,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TextdateiLesen">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.PersonenSpeichern">
+    <configuration name="PersonenSpeichern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PersonenSpeichern" />
       <module name="customer-employee-management" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonenSpeichern" />
         <item itemvalue="Application.TextdateiLesen" />
         <item itemvalue="Application.TextdateiSchreiben" />
         <item itemvalue="Application.TextDateiSchreibenOutputStreamWriter" />
         <item itemvalue="Application.Personenverwaltung" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +123,7 @@
       <workItem from="1678470893388" duration="136000" />
       <workItem from="1678471589678" duration="2636000" />
       <workItem from="1678547709753" duration="11987000" />
-      <workItem from="1678621484475" duration="10565000" />
+      <workItem from="1678621484475" duration="13609000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <created>1678312688184</created>
@@ -289,7 +286,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678664473268</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Create class for reading from a text file">
+      <created>1678704091745</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1678704091745</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Add getters and setters for class Person">
+      <created>1678704408993</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1678704408993</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +340,9 @@
     <MESSAGE value="Add try-catch-Block for NumberFormatException" />
     <MESSAGE value="Close scanner" />
     <MESSAGE value="Create text file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create text file" />
+    <MESSAGE value="Create class for reading from a text file" />
+    <MESSAGE value="Add getters and setters for class Person" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add getters and setters for class Person" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
