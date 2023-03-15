@@ -1,5 +1,6 @@
 
 
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.IOException;
@@ -12,6 +13,7 @@ public class JsonParser {
         try{
             String text = new String(Files.readAllBytes(Paths.get("personen.json")), StandardCharsets.UTF_8);
             JSONObject json = new JSONObject(text);
+
         } catch (IOException e){
             e.printStackTrace();
         }
