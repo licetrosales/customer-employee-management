@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c98ae8d-e306-4e2f-b6f5-800b84567c8d" name="Changes" comment="Read array-attribut personen">
+    <list default="true" id="6c98ae8d-e306-4e2f-b6f5-800b84567c8d" name="Changes" comment="Read all lastnames">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonParser.java" afterDir="false" />
     </list>
@@ -124,7 +125,9 @@
       <workItem from="1678471589678" duration="2636000" />
       <workItem from="1678547709753" duration="11987000" />
       <workItem from="1678621484475" duration="23012000" />
-      <workItem from="1678900051219" duration="2699000" />
+      <workItem from="1678900051219" duration="2881000" />
+      <workItem from="1678903079234" duration="842000" />
+      <workItem from="1678984511828" duration="883000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <created>1678312688184</created>
@@ -343,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678901409112</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Read all lastnames">
+      <created>1678903044767</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1678903044767</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +372,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add constructor for customer class" />
     <MESSAGE value="Add function to display customer name and lastname" />
     <MESSAGE value="Add main function" />
     <MESSAGE value="Add class with address info" />
@@ -387,7 +396,8 @@
     <MESSAGE value="Create a json object with org.json" />
     <MESSAGE value="Convert String in json object" />
     <MESSAGE value="Read array-attribut personen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Read array-attribut personen" />
+    <MESSAGE value="Read all lastnames" />
+    <option name="LAST_COMMIT_MESSAGE" value="Read all lastnames" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -396,21 +406,6 @@
           <url>file://$PROJECT_DIR$/target/classes/Personenverwaltung.class</url>
           <line>66</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/JsonParser.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/JsonParser.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/JsonParser.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -11,7 +11,7 @@ import java.nio.file.Paths;
 public class JsonParser {
     public static void main(String[] args) {
         try{
-            String text = new String(Files.readAllBytes(Paths.get("/personen.json")), StandardCharsets.UTF_8);
+            String text = Files.readString(Paths.get("/Users/licetullmann/IdeaProjects/customer-employee-management/src/main/java/personen.json"));
             JSONObject json = new JSONObject(text);
             JSONArray personen = json.getJSONArray("personen");
             for(int i=0; i< personen.length();i++){
