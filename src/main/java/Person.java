@@ -1,3 +1,5 @@
+import org.json.JSONObject;
+
 import java.io.Serializable;
 
 public class Person implements Serializable {
@@ -37,5 +39,20 @@ public class Person implements Serializable {
     public String toString(){
       return  this.getVorname() + "," + this.getNachname() + "," + this.getAdresse().strasse + "," +
                 this.getAdresse().getHausnummer() + "," + this.getAdresse().getPlz() + "," + this.getAdresse().getOrt();
+    }
+    public JSONObject toJson(){
+        JSONObject obj = new JSONObject();
+        obj.put("vorname", this.getVorname());
+        obj.put("nachname", this.getNachname());
+
+        JSONObject adresse = new JSONObject();
+        adresse.put("strasse", this.getAdresse().getStrasse());
+        adresse.put("hausnummer", this.getAdresse().getHausnummer());
+        adresse.put("plz", this.getAdresse().getPlz());
+        adresse.put("ort", this.getAdresse().getOrt());
+
+        obj.put("adresse", adresse);
+
+        return obj;
     }
 }
