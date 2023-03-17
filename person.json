@@ -1,0 +1,10 @@
+{
+    "vorname": "Mike",
+    "adresse": {
+        "ort": "Musterstadt",
+        "strasse": "Musterstrasse",
+        "hausnummer": 7,
+        "plz": "01234"
+    },
+    "nachname": "Mustermann"
+}

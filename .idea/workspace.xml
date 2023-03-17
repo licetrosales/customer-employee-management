@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c98ae8d-e306-4e2f-b6f5-800b84567c8d" name="Changes" comment="Read all lastnames">
+    <list default="true" id="6c98ae8d-e306-4e2f-b6f5-800b84567c8d" name="Changes" comment="Fix functionality for reading all lastnames">
+      <change afterPath="$PROJECT_DIR$/src/main/java/JsonSchreiben.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +62,16 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.JsonParser">
+  <component name="RunManager" selected="Application.JsonSchreiben">
     <configuration name="JsonParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JsonParser" />
+      <module name="customer-employee-management" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonSchreiben" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JsonSchreiben" />
       <module name="customer-employee-management" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,13 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextdateiLesen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TextdateiLesen" />
-      <module name="customer-employee-management" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WriteJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WriteJSON" />
       <module name="customer-employee-management" />
@@ -99,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JsonSchreiben" />
         <item itemvalue="Application.JsonParser" />
         <item itemvalue="Application.WriteJSON" />
         <item itemvalue="Application.PersonLaden" />
         <item itemvalue="Application.PersonenSpeichern" />
-        <item itemvalue="Application.TextdateiLesen" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +128,8 @@
       <workItem from="1678621484475" duration="23012000" />
       <workItem from="1678900051219" duration="2881000" />
       <workItem from="1678903079234" duration="842000" />
-      <workItem from="1678984511828" duration="883000" />
+      <workItem from="1678984511828" duration="1732000" />
+      <workItem from="1679080934587" duration="1398000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <created>1678312688184</created>
@@ -353,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678903044767</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Fix functionality for reading all lastnames">
+      <created>1678985477655</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1678985477655</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +381,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add function to display customer name and lastname" />
     <MESSAGE value="Add main function" />
     <MESSAGE value="Add class with address info" />
     <MESSAGE value="Insert Adresse class in Kunde class" />
@@ -397,7 +405,8 @@
     <MESSAGE value="Convert String in json object" />
     <MESSAGE value="Read array-attribut personen" />
     <MESSAGE value="Read all lastnames" />
-    <option name="LAST_COMMIT_MESSAGE" value="Read all lastnames" />
+    <MESSAGE value="Fix functionality for reading all lastnames" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix functionality for reading all lastnames" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
