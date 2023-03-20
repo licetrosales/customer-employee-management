@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c98ae8d-e306-4e2f-b6f5-800b84567c8d" name="Changes" comment="Add method for writing a json object in class person">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FensterProgramm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="6c98ae8d-e306-4e2f-b6f5-800b84567c8d" name="Changes" comment="Set text appearance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FensterProgramm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FensterProgramm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +128,7 @@
       <workItem from="1678903079234" duration="842000" />
       <workItem from="1678984511828" duration="1732000" />
       <workItem from="1679080934587" duration="4272000" />
-      <workItem from="1679344396099" duration="416000" />
+      <workItem from="1679344396099" duration="1240000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <created>1678312688184</created>
@@ -376,7 +375,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679084921650</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Add an empty JFrame">
+      <created>1679344893150</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1679344893150</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Add text field to the window">
+      <created>1679345079733</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1679345079733</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Set text appearance">
+      <created>1679345292767</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1679345292767</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,9 +415,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Insert Adresse class in Kunde class" />
-    <MESSAGE value="Add getter and setter for class Adresse" />
-    <MESSAGE value="Add superclass Person" />
     <MESSAGE value="Declare class Kunde as subclass of class Person" />
     <MESSAGE value="Declare class Mitarbeiter as subclass of class Person" />
     <MESSAGE value="Add setters and getters" />
@@ -420,7 +437,10 @@
     <MESSAGE value="Fix functionality for reading all lastnames" />
     <MESSAGE value="Write a json object to a file" />
     <MESSAGE value="Add method for writing a json object in class person" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add method for writing a json object in class person" />
+    <MESSAGE value="Add an empty JFrame" />
+    <MESSAGE value="Add text field to the window" />
+    <MESSAGE value="Set text appearance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set text appearance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
