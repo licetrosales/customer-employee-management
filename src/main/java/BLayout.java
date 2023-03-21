@@ -5,7 +5,7 @@ public class BLayout {
     public static void main(String[] args) {
         Frame f = new JFrame();
         f.setSize(300,200);
-        f.setLayout(new FlowLayout());
+        f.setLayout(new GridLayout(3,2));
 
         JButton button = new JButton("B1");
         f.add(button);
