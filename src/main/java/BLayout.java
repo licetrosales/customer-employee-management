@@ -5,22 +5,22 @@ public class BLayout {
     public static void main(String[] args) {
         Frame f = new JFrame();
         f.setSize(300,200);
-        f.setLayout(new BorderLayout());
+        f.setLayout(new FlowLayout());
 
         JButton button = new JButton("B1");
-        f.add(button, BorderLayout.PAGE_START);
+        f.add(button);
 
         JButton button2 = new JButton("B2");
-        f.add(button2, BorderLayout.LINE_START);
+        f.add(button2);
 
         JButton button3 = new JButton("B3");
-        f.add(button3, BorderLayout.CENTER);
+        f.add(button3);
 
         JButton button4 =new JButton("B4");
-        f.add(button4, BorderLayout.LINE_END);
+        f.add(button4);
 
         JButton button5 =new JButton("B5");
-        f.add(button5, BorderLayout.PAGE_END);
+        f.add(button5);
         f.setVisible(true);
     }
 }
