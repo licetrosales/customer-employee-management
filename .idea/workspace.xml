@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c98ae8d-e306-4e2f-b6f5-800b84567c8d" name="Changes" comment="Add BorderLayout to buttons">
-      <change beforePath="$PROJECT_DIR$/src/main/java/BLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BLayout.java" afterDir="false" />
+    <list default="true" id="6c98ae8d-e306-4e2f-b6f5-800b84567c8d" name="Changes" comment="Add open file dialog box">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GrafischePersonenverwaltung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrafischePersonenverwaltung.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BLayout">
+  <component name="RunManager" selected="Application.GrafischePersonenverwaltung">
     <configuration name="BLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BLayout" />
       <module name="customer-employee-management" />
@@ -69,6 +70,13 @@
     </configuration>
     <configuration name="FensterProgramm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FensterProgramm" />
+      <module name="customer-employee-management" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GrafischePersonenverwaltung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GrafischePersonenverwaltung" />
       <module name="customer-employee-management" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,20 +96,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WriteJSON" />
-      <module name="customer-employee-management" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GrafischePersonenverwaltung" />
         <item itemvalue="Application.BLayout" />
         <item itemvalue="Application.FensterProgramm" />
         <item itemvalue="Application.JsonSchreiben" />
         <item itemvalue="Application.JsonParser" />
-        <item itemvalue="Application.WriteJSON" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +129,7 @@
       <workItem from="1678984511828" duration="1732000" />
       <workItem from="1679080934587" duration="4272000" />
       <workItem from="1679344396099" duration="1502000" />
-      <workItem from="1679419255705" duration="1990000" />
+      <workItem from="1679419255705" duration="7921000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <created>1678312688184</created>
@@ -410,7 +411,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679421007091</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Add FlowLayout">
+      <created>1679421407411</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1679421407411</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Add GridLayout with 2 rows and 2 columns">
+      <created>1679421599161</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1679421599161</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Add open file dialog box">
+      <created>1679507796349</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1679507796349</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,9 +451,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add setters and getters" />
-    <MESSAGE value="Add class Personenverwaltung" />
-    <MESSAGE value="Create object Kunde or Mitarbeiter" />
     <MESSAGE value="Add List of objects" />
     <MESSAGE value="Add try-catch-Block for NumberFormatException" />
     <MESSAGE value="Close scanner" />
@@ -454,7 +473,10 @@
     <MESSAGE value="Set text appearance" />
     <MESSAGE value="Add ActionListener to the button" />
     <MESSAGE value="Add BorderLayout to buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add BorderLayout to buttons" />
+    <MESSAGE value="Add FlowLayout" />
+    <MESSAGE value="Add GridLayout with 2 rows and 2 columns" />
+    <MESSAGE value="Add open file dialog box" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add open file dialog box" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
