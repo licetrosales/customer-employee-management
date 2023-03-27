@@ -2,6 +2,8 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import javax.swing.*;
+import javax.swing.table.AbstractTableModel;
+import javax.swing.table.TableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -38,7 +40,49 @@ public class GrafischePersonenverwaltung {
                             personenListe.add(new Person(person.getString("vorname"), person.getString("nachname"), adresse.getString("strasse"), adresse.getInt("hausnummer"), adresse.getString("plz"), adresse.getString("ort")));
                         }
 
+                        TableModel dataModel = new AbstractTableModel() {
+                            @Override
+                            public int getRowCount() {
+                                return personenListe.size();
+                            }
 
+                            @Override
+                            public int getColumnCount() {
+                                return 6;
+                            }
+
+                            @Override
+                            public Object getValueAt(int row, int col) {
+                                Person p = personenListe.get(row);
+                                String cell = "";
+                                switch (col) {
+                                    case 0:
+                                        cell = p.getVorname();
+                                        break;
+                                    case 1:
+                                        cell = p.getNachname();
+                                        break;
+                                    case 2:
+                                        cell = p.getAdresse().getStrasse();
+                                        break;
+                                    case 3:
+                                        cell = String.valueOf(p.getAdresse().getHausnummer());
+                                        break;
+                                    case 4:
+                                        cell = p.getAdresse().getPlz();
+                                        break;
+                                    case 5:
+                                        cell = p.getAdresse().getOrt();
+                                        break;
+                                }
+
+                                return cell;
+                            }
+                        };
+                        f.add(button, BorderLayout.PAGE_START);
+                        JTable table = new JTable(dataModel);
+                        ((AbstractTableModel) dataModel).fireTableDataChanged();
+                        f.add(table, BorderLayout.CENTER);
                     } catch (IOException exception) {
                         exception.printStackTrace();
                     }
@@ -46,7 +90,8 @@ public class GrafischePersonenverwaltung {
                 }
             }
         });
-        f.add(button, BorderLayout.PAGE_START);
+
+
 
 
 
